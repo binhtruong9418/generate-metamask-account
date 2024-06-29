@@ -4,7 +4,7 @@ const path = require('path');
 const dotenv = require('dotenv');
 
 const mnemonic = dotenv.config().parsed.MNEMONIC;
-const NUMBER_OF_ACCOUNTS = 20;
+const NUMBER_OF_ACCOUNTS = dotenv.config().parsed.NUMBER_OF_ACCOUNTS;
 
 const createAccounts = async () => {
     let accounts = [];

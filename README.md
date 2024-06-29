@@ -14,6 +14,7 @@ npm install
 1. Create a `.env` file in the root directory based on the `.env.example` file
 ```env
 MNEMONIC=your-mnemonic
+NUMBER_OF_ACCOUNTS=number-of-accounts (default: 10)
 ```
 2. Fill in the required values
 3. Save the file
